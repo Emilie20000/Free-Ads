@@ -1,0 +1,155 @@
+:root {
+    --light-orange: #fec89a;
+    --background: #ffeedd;
+    --white: #f9f9f9; 
+}
+
+body {
+    margin: 0;
+    background-color: var(--background);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    gap: 60%;
+    background-color: var(--light-orange);
+    color: var(--white);
+    padding: 1% 5%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar h1 {
+    margin: 0;
+    font-size: 3em;
+}
+
+.navbar-nav {
+    display: flex;
+    
+}
+
+.navbar-nav a {
+    color: var(--white);
+    text-decoration: none;
+    font-size: 1em;
+    margin-right: 1em;
+    margin-top: 1em;
+}
+
+
+.main-container {
+    padding: 1% 10%;
+}
+
+.ads-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ad-card {
+    max-height: 50em;
+   max-width: 30em;
+   text-align: center;
+   border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   margin: 1%;
+   background-color: var(--white);
+}
+
+.ad-content {
+    display: flex;
+    padding: 1%;
+    text-align: left;
+}
+
+.ad-pictures {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-right: 1%;
+}
+
+img {
+    max-height: 80%;
+    max-width: 49%;
+}
+
+.button-container {
+    display: flex;
+    gap: 1%;
+}
+
+ .button {
+    font-weight: 16px;
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: var(--light-orange);
+    color: var(--white);
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+ }
+
+ .search-form {
+    display: flex;
+    gap: 1%;
+    justify-content: center;
+    padding: 1% 0;
+ }
+
+ .profile-container,
+ .message-item {
+    background-color: var(--white);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.message-item h3 {
+    margin-top: 0;
+}
+
+.message-new {
+    color: red;
+}
+
+.message-read {
+    color: grey;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container input[type="password"],
+.form-container input[type="number"],
+.form-container input[type="file"],
+.form-container textarea  {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.welcome h1 {
+    font-size: 3em;
+    color: var(--light-orange);
+}
+
+.logout {
+    
+    color: var(--light-orange);
+    background-color: var(--white);
+}
+
