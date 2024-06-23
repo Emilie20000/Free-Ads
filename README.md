@@ -28,8 +28,6 @@ Rédiger le code en respectant les consignes et restrictions données dans le su
 - **Implémenter la partie "front-end"** d'une solution web
 Implémentation de l'interface client en relation avec le backend
 
-- **Implémenter la logique et la base de données** assurant la persistance des données côté serveur (le "back-end").
-
 - **Implémenter la logique et la base de données assurant la persistance des données côté serveur (le "back-end").**
 Enregistrement des données dans la bdd en utilisant les models et les controlleurs
 
